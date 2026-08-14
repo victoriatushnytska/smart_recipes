@@ -1,9 +1,24 @@
+cat << 'EOF' > .gitignore
+# Залежності
 node_modules/
 vtushn/node_modules/
+
+# Змінні оточення та секрети
 .env
 backend/.env
 *.env
+
+# Python кеш та артефакти
 __pycache__/
+backend/__pycache__/
+*.py[cod]
+
+# Бази даних
 *.db
 backend/recipes.db
+
+# Системні файли macOS
 .DS_Store
+Icon
+backend/.DS_Store
+EOF
