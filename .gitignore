@@ -1,0 +1,9 @@
+node_modules/
+vtushn/node_modules/
+.env
+backend/.env
+*.env
+__pycache__/
+*.db
+backend/recipes.db
+.DS_Store
