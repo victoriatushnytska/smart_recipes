@@ -1,4 +1,4 @@
-#🥗 vtushn - AI-Powered Smart Recipe Generator
+# 🥗 vtushn - AI-Powered Smart Recipe Generator
 vtushn is a Progressive Web Application (PWA) designed to combat household food waste. By leveraging Vision AI and a Multi-Agent backend architecture, the app recognizes ingredients directly from user photos and generates precise, zero-waste recipes with fully calculated macronutrients.
 
 https://drive.google.com/drive/folders/1Mj1y2jGxWyzXK9fBZeDiD7BgMxz0rWrO?usp=sharing 
@@ -73,5 +73,7 @@ Bash
 cd frontend
 npm install
 npm run dev 
+
 or 'npm start' depending on your package.json
+
 The app will be available at http://localhost:3000 (or 5173).
